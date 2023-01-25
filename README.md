@@ -1,9 +1,23 @@
-Inspired by Nintendo DS. An Android app that plays specific audio/music based on foreground app. It can be a playlist for each app or just 1 audio for a list of apps.
+# Amotify
 
-Default audio could be silent (Only listed/supported apps play audio, any other app is silent) or sound (all apps play audio, except the ones explicitly set to silent)
+Inspired by Nintendo DS. An Android app that plays specific audio/music based on foreground app. It can be a playlist for each app or just 1 audio for a list of apps. Name is derived from "app" + "motif", and the prefix reminds me of ඞamogus, lol.
 
-Supports "./" paths, which are relative to pack root. Pack root dir is defined by the manifest (like Cargo.toml and package.json). Support for parent-dirs ("..") and general path-traversal will be added later
+Default audio could be silent (Only listed/supported apps play audio, any other app is silent), or sound (all apps play audio, except the ones explicitly set to silent).
 
-Name is derived from "app + motif", and the prefix reminds me of ඞamogus
+Supports "./" paths, which are relative to theme-pack root. Pack root dir is defined by the manifest (like Cargo.toml and package.json). Support for parent-dirs ("..") and general path-traversal will be added later.
 
-main.flo is the /Llamalab/Automate flow draft implementation
+main.flo is the /Llamalab/Automate-flow draft implementation.
+
+I decided to not make this cross-platform, because development would be absolute madness, specially on multi-window desktop environments.
+
+## Disclaimer
+
+This is an unstarted project (pre-alpha), so none of the features I mentioned have been implemented, yet
+
+## License?
+
+I still haven't chosen a license, so it's "all rights reserved" while I choose one.
+
+If you want to help me choose a license, thank you! I'm looking for a license like "Creative Commons Attribution Non-Commercial", but allowing derivative works to be commercial, such that "the more modified it is, the more money they can get from my idea", because "more modifications" means it's "less mine".
+
+If it helps in the decision, I'm planning to put ads when the app is finally ready for release, and add an option to opt-out of ads by paying a subscription. I'm also considering making the app "more free", and make donations optional, but I need money (for me and my family) :(
