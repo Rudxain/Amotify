@@ -18,6 +18,6 @@ This is an unstarted project (pre-alpha), so none of the features I mentioned ha
 
 I still haven't chosen a license, so it's "all rights reserved" while I choose one.
 
-If you want to help me choose a license, thank you! I'm looking for a license like "Creative Commons Attribution Non-Commercial", but allowing derivative works to be commercial, such that "the more modified it is, the more money they can get from my idea", because "more modifications" means it's "less mine".
+If you want to help me choose a license, thank you! I'm looking for a license like "Creative Commons Attribution Non-Commercial", but allowing derivative works to be commercial, such that "the more modified it is, the more money they can get from my idea, and less money goes to me", because "more modifications" means it's "less mine".
 
 If it helps in the decision, I'm planning to put ads when the app is finally ready for release, and add an option to opt-out of ads by paying a subscription. I'm also considering making the app "more free", and make donations optional, but I need money (for me and my family) :(
