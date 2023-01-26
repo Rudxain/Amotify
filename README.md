@@ -14,6 +14,21 @@ I decided to not make this cross-platform, because development would be absolute
 
 This is an unstarted project (pre-alpha), so none of the features I mentioned have been implemented, yet
 
+## Theme package format
+
+I haven't wrote the specification yet, but I have a vague idea.
+
+### Directory tree
+
+This is arbitrary, so a pack-dev can decide whatever structure they want, as long as it matches the manifest. Of course, devs are encouraged to keep the structure consistent and organized.
+I personally recommend to **not** place audio files at pack-root, to prevent "namespace pollution".
+
+### Manifest
+
+The schema is vaguely (and implicitly) described [here](main.flo), but that's subject to change (unstable).
+
+I'm considering TOML rather than JSON. **I'll never use YAML**, because I'm an advocate for tab-indentation, lol.
+
 ## License?
 
 I still haven't chosen a license, so it's "all rights reserved" while I choose one.
