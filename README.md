@@ -23,11 +23,17 @@ I haven't wrote the specification yet, but I have a vague idea.
 This is arbitrary, so a pack-dev can decide whatever structure they want, as long as it matches the manifest. Of course, devs are encouraged to keep the structure consistent and organized.
 I personally recommend to **not** place audio files at pack-root, to prevent "namespace pollution".
 
+Despite the fact that this app will only be used on Android (ext4 and FAT32 file-systems), the path names shouldn't contain chars incompatible with NTFS or APFS. This is to ensure portability.
+
+Path names must be **valid UTF-8** (no control chars, no unpaired surrogates)
+
 ### Manifest
 
 The schema is vaguely (and implicitly) described [here](main.flo), but that's subject to change (unstable).
 
 I'm considering TOML rather than JSON. **I'll never use YAML**, because I'm an advocate for tab-indentation, lol.
+
+Name will probably be **"Amotify.toml"**
 
 ## License?
 
