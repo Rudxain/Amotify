@@ -1,6 +1,6 @@
 # Amotify
 
-Inspired by Nintendo DS. An Android app that plays specific audio/music based on foreground app. It can be a playlist for each app or just 1 audio for a list of apps. Name is derived from "app" + "motif", and the prefix reminds me of ඞamogus, lol.
+Inspired by Nintendo DS. An Android app that plays specific audio/music based on foreground app. It can be a playlist for each app or only 1 audio for a list of apps. Name is derived from "app" + "motif", and the prefix reminds me of ඞamogus, lol.
 
 Default audio could be none (only listed apps play audio, any other app is silent), or all-sound (all apps play a place-holder audio, except the ones explicitly set to silent).
 
