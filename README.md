@@ -4,8 +4,6 @@ Inspired by Nintendo DS. An Android app that plays specific audio/music based on
 
 Default audio could be none (only listed apps play audio, any other app is silent), or all-sound (all apps play a place-holder audio, except the ones explicitly set to silent).
 
-Supports "./" paths, which are relative to theme-pack root. Pack root dir is defined by the manifest (like Cargo.toml and package.json). Support for parent-dirs ("..") and arbitrary path-traversal will be added later.
-
 main.flo is the /Llamalab/Automate-flow draft implementation.
 
 I decided to not make this cross-platform, because development would be absolute madness, specially on multi-window desktop environments.
@@ -17,6 +15,8 @@ This is an unstarted project (pre-alpha), so none of the features I mentioned ha
 ## Theme package format
 
 I haven't wrote the specification yet, but I have a vague idea.
+
+Supports "./" paths, which are relative to theme-pack root directory. Pack-root is where the manifest is placed (like Cargo.toml and package.json). Support for parent-dirs ("..") and arbitrary path-traversal will be added later (for security reasons, and because I'm lazy).
 
 ### Directory tree
 
