@@ -23,7 +23,7 @@ Supports "./" paths, which are relative to theme-pack root directory. Pack-root 
 This is arbitrary, so a pack-dev can decide whatever structure they want, as long as it matches the manifest. Of course, devs are encouraged to keep the structure consistent and organized.
 I personally recommend to **not** place audio files at pack-root, to prevent "namespace pollution".
 
-Despite the fact that this app will only be used on Android (ext4 and FAT32 file-systems), the path names shouldn't contain chars incompatible with NTFS or APFS. This is to ensure portability.
+Despite the fact that this app will only be used on Android (ext4 and FAT32 file-systems), path-names must also be compatible with NTFS and APFS. This is to ensure portability between development environments.
 
 Path names must be **valid UTF-8** (no control chars, no unpaired surrogates)
 
