@@ -25,7 +25,7 @@ I personally recommend to **not** place audio files at pack-root, to prevent "na
 
 Despite the fact that this app will only be used on Android (ext4 and FAT32 file-systems), path-names must also be compatible with NTFS and APFS. This is to ensure portability between development environments.
 
-Path names must be **valid UTF-8** (no control chars, no unpaired surrogates)
+Path names must be **valid UTF-8** (no control chars, no unpaired surrogates, no BOM)
 
 ### Manifest
 
